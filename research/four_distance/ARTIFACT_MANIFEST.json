@@ -24,6 +24,7 @@
     "bounded small-defect checks are used before full factorization on large candidates"
   ],
   "scripts": [
+    "research/asg_bcd_formula/formula.py",
     "research/four_distance/k22_search.py",
     "research/four_distance/slope_tools.py",
     "research/four_distance/analyze_seed.py",
@@ -73,6 +74,7 @@
     "research/four_distance/plots/delta_scan.png"
   ],
   "tests": [
+    "research/asg_bcd_formula/tests/test_formula.py",
     "research/four_distance/tests/test_arithmetic.py",
     "research/four_distance/tests/test_known_seeds.py",
     "research/four_distance/tests/test_reverse_closure.py",
@@ -85,6 +87,7 @@
     "research/four_distance/tests/test_artifact_manifest.py"
   ],
   "reproducibility_commands": [
+    "pytest research/asg_bcd_formula/tests -q",
     "pytest research/four_distance/tests -q",
     "python research/four_distance/fiber_intersection_search.py --delta 289/260",
     "sage research/four_distance/sage_fiber_rank.sage --delta 289/260 --all --max-multiple 100 --combo-bound 20 --strategic-only --sieve-primes 2000",
@@ -92,6 +95,30 @@
     "python research/four_distance/delta_scan_lite.py --max-deltas 10 --max-multiple 50 --combo-bound 10 --sieve-primes 1000"
   ],
   "current_results": {
+    "asg_bcd_formula_export": {
+      "schema_version": "asg_bcd_formula_v1",
+      "claim_policy": "research-only exact formula export; no trading runtime and no proof claim",
+      "known_examples": [
+        {
+          "delta": "289/260",
+          "u": "3/5",
+          "defects_BCD": [1, 1, 730],
+          "point": ["416/867", "260/289"]
+        },
+        {
+          "delta": "289/260",
+          "u": "15/26",
+          "defects_BCD": [730, 1, 1],
+          "point": ["451/867", "260/289"]
+        },
+        {
+          "delta": "13/6",
+          "u": "1/4",
+          "defects_BCD": [1, 1, 17],
+          "point": ["45/52", "6/13"]
+        }
+      ]
+    },
     "delta_289_260": {
       "UB_size": 200,
       "UC_size": 1680,

@@ -51,11 +51,13 @@ Strong finite evidence of structural sparsity in rational solutions.
 Primary module:
 
 - `research/four_distance/`
+- `research/asg_bcd_formula/` for the standalone exact B/C/D formula pack
 
 Start with:
 
 ```bash
 pytest research/four_distance/tests -q
+pytest research/asg_bcd_formula/tests -q
 python research/four_distance/fiber_intersection_search.py --delta 289/260
 python research/four_distance/delta_scan_lite.py --dry-run --max-deltas 1
 ```
@@ -78,3 +80,32 @@ The project has a reproducible four-distance exact arithmetic artifact under
 `research/four_distance`.  The recorded finite runs found no true solution, no
 triple fiber intersection, and no improvement over the 730 live seed.  This is
 computational evidence only, not a proof.
+
+## ASG/BCD Formula Export
+
+The public formula pack under `research/asg_bcd_formula` exports the exact
+Fraction/int version of the B/C/D relations discussed in the study:
+
+```text
+A*C = B*D = A+B-1
+A = 2u/(1-u^2)
+B = A*(delta-1)
+C = delta - 1/A
+D = (A*delta - 1)/(A*(delta-1))
+P = (1/(A*delta), 1/delta)
+```
+
+It includes exact defect checks for the three conditions `B in S`, `C in S`,
+and `D in S`, where `S = {a/b : a^2+b^2 is a square}`.
+
+Known exported examples:
+
+- `delta=289/260, u=3/5` gives defects `(1,1,730)` and
+  `P=(416/867,260/289)`.
+- `delta=289/260, u=15/26` gives defects `(730,1,1)` and
+  `P=(451/867,260/289)`.
+- `delta=13/6, u=1/4` gives defects `(1,1,17)` and
+  `P=(45/52,6/13)`.
+
+This is a reusable formula artifact only.  It does not include trading runtime
+code, credentials, private telemetry, or any claim of solving the problem.
