@@ -1,0 +1,5 @@
+delta,fiber,curve_label,u,W,source,A,B,C,D,defect_B,defect_C,defect_D,two_good_one_bad,remaining_defect,score,x,y,N,p,q,r,s,mcc_live,point_in_unit,four_distance_ok,true_solution,notes
+289/260,B,B_fiber,3/5,85,discovered_from_verified_candidate+hardcoded_seed_730+known_basepoint,15/8,87/416,451/780,451/87,1,1,730,True,730,730,416/867,260/289,867,416,780,451,87,True,True,False,False,near_miss:(1-x)^2+(1-y)^2;sieve:D_failed_mod_13
+289/260,C,C_fiber,15/26,170,"combo:2,0",780/451,87/451,8/15,416/87,730,1,1,True,730,730,451/867,260/289,867,451,780,416,87,True,True,False,False,near_miss:x^2+(1-y)^2;sieve:B_failed_mod_13
+289/260,C,C_fiber,3/5,901/5,discovered_from_verified_candidate+hardcoded_seed_730+known_basepoint,15/8,87/416,451/780,451/87,1,1,730,True,730,730,416/867,260/289,867,416,780,451,87,True,True,False,False,near_miss:(1-x)^2+(1-y)^2;sieve:D_failed_mod_13
+289/260,D,D_fiber,15/26,2125/26,discovered_from_verified_candidate+hardcoded_from_C_orbit,780/451,87/451,8/15,416/87,730,1,1,True,730,730,451/867,260/289,867,451,780,416,87,True,True,False,False,near_miss:x^2+(1-y)^2;sieve:B_failed_mod_13

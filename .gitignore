@@ -1,0 +1,20 @@
+__pycache__/
+.pytest_cache/
+
+*.checkpoint.json
+*.tmp
+
+# Transient Sage/runtime logs. Keep CSV summaries, Markdown reports, scripts,
+# and tests tracked.
+*.sage.log
+*.sage.err.log
+*.sage.py
+research/four_distance/reports/wsl_sage_install*.log
+
+# Dry-run and input scratch outputs. Keep official summaries/reports tracked.
+research/four_distance/data/delta_scan_lite_dry_run_*.csv
+research/four_distance/reports/delta_scan_lite_dry_run_*.md
+research/four_distance/data/delta_scan_lite_input_curves.csv
+
+# Legacy standalone scratch helper kept locally outside the release artifact.
+pythagorean_k22_search.py

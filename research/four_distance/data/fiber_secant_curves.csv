@@ -1,0 +1,64 @@
+curve_label,delta,numerator,denominator,polynomial,denominator_square,known_basepoints,sage_status,rank_info
+B_fiber,289/260,29*u,-130*(u - 1)*(u + 1),16900*u**4 - 32959*u**2 + 16900,16900*(u - 1)**2*(u + 1)**2,"u=3/5, W=85",Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,289/260,130*u**2 + 289*u - 130,260*u,16900*u**4 + 75140*u**3 + 117321*u**2 - 75140*u + 16900,67600*u**2,"u=3/5, W=901/5",Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,289/260,130*u**2 + 289*u - 130,29*u,2*(8450*u**4 + 37570*u**3 + 25281*u**2 - 37570*u + 8450),841*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,13/6,7*u,-3*(u - 1)*(u + 1),9*u**4 + 31*u**2 + 9,9*(u - 1)**2*(u + 1)**2,"u=1/4, W=53/16",Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,13/6,3*u**2 + 13*u - 3,6*u,9*u**4 + 78*u**3 + 187*u**2 - 78*u + 9,36*u**2,"u=1/4, W=25/16",Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,13/6,3*u**2 + 13*u - 3,7*u,9*u**4 + 78*u**3 + 200*u**2 - 78*u + 9,49*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,289/29,520*u,-29*(u - 1)*(u + 1),841*u**4 + 268718*u**2 + 841,841*(u - 1)**2*(u + 1)**2,"u=1/4, W=2125/16",Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,289/29,29*u**2 + 578*u - 29,58*u,841*u**4 + 33524*u**3 + 335766*u**2 - 33524*u + 841,3364*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,289/29,29*u**2 + 578*u - 29,520*u,841*u**4 + 33524*u**3 + 602802*u**2 - 33524*u + 841,270400*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,867/451,832*u,-451*(u - 1)*(u + 1),203401*u**4 + 285422*u**2 + 203401,203401*(u - 1)**2*(u + 1)**2,"u=3/5, W=14416/25",Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,867/451,451*u**2 + 1734*u - 451,902*u,203401*u**4 + 1564068*u**3 + 3413558*u**2 - 1564068*u + 203401,813604*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,867/451,451*u**2 + 1734*u - 451,832*u,203401*u**4 + 1564068*u**3 + 3292178*u**2 - 1564068*u + 203401,692224*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,867/416,451*u,-208*(u - 1)*(u + 1),43264*u**4 + 116873*u**2 + 43264,43264*(u - 1)**2*(u + 1)**2,"u=1/4, W=901/4",Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,867/416,208*u**2 + 867*u - 208,416*u,43264*u**4 + 360672*u**3 + 838217*u**2 - 360672*u + 43264,173056*u**2,"u=1/4, W=425/4",Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,867/416,208*u**2 + 867*u - 208,451*u,2*(21632*u**4 + 180336*u**3 + 434281*u**2 - 180336*u + 21632),203401*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,332/77,510*u,-77*(u - 1)*(u + 1),5929*u**4 + 248242*u**2 + 5929,5929*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,332/77,77*u**2 + 664*u - 77,154*u,5929*u**4 + 102256*u**3 + 452754*u**2 - 102256*u + 5929,23716*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,332/77,77*u**2 + 664*u - 77,510*u,5929*u**4 + 102256*u**3 + 689138*u**2 - 102256*u + 5929,260100*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,249/119,260*u,-119*(u - 1)*(u + 1),14161*u**4 + 39278*u**2 + 14161,14161*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,249/119,119*u**2 + 498*u - 119,238*u,14161*u**4 + 118524*u**3 + 276326*u**2 - 118524*u + 14161,56644*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,249/119,119*u**2 + 498*u - 119,260*u,14161*u**4 + 118524*u**3 + 287282*u**2 - 118524*u + 14161,67600*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,332/255,154*u,-255*(u - 1)*(u + 1),65025*u**4 - 106334*u**2 + 65025,65025*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,332/255,255*u**2 + 664*u - 255,510*u,65025*u**4 + 338640*u**3 + 570946*u**2 - 338640*u + 65025,260100*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,332/255,255*u**2 + 664*u - 255,154*u,65025*u**4 + 338640*u**3 + 334562*u**2 - 338640*u + 65025,23716*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,249/130,119*u,-65*(u - 1)*(u + 1),4225*u**4 + 5711*u**2 + 4225,4225*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,249/130,65*u**2 + 249*u - 65,130*u,4225*u**4 + 32370*u**3 + 70451*u**2 - 32370*u + 4225,16900*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,249/130,65*u**2 + 249*u - 65,119*u,4225*u**4 + 32370*u**3 + 67712*u**2 - 32370*u + 4225,14161*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,3125/493,5264*u,-493*(u - 1)*(u + 1),243049*u**4 + 27223598*u**2 + 243049,243049*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,3125/493,493*u**2 + 6250*u - 493,986*u,243049*u**4 + 6162500*u**3 + 39548598*u**2 - 6162500*u + 243049,972196*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,3125/493,493*u**2 + 6250*u - 493,5264*u,243049*u**4 + 6162500*u**3 + 66286098*u**2 - 6162500*u + 243049,27709696*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,9375/2303,14144*u,-2303*(u - 1)*(u + 1),5303809*u**4 + 189445118*u**2 + 5303809,5303809*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,9375/2303,2303*u**2 + 18750*u - 2303,4606*u,5303809*u**4 + 86362500*u**3 + 362170118*u**2 - 86362500*u + 5303809,21215236*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,9375/2303,2303*u**2 + 18750*u - 2303,14144*u,5303809*u**4 + 86362500*u**3 + 541007618*u**2 - 86362500*u + 5303809,200052736*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,3125/2632,493*u,-1316*(u - 1)*(u + 1),1731856*u**4 - 3220663*u**2 + 1731856,1731856*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,3125/2632,1316*u**2 + 3125*u - 1316,2632*u,1731856*u**4 + 8225000*u**3 + 13229337*u**2 - 8225000*u + 1731856,6927424*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,3125/2632,1316*u**2 + 3125*u - 1316,493*u,2*(865928*u**4 + 4112500*u**3 + 3272481*u**2 - 4112500*u + 865928),243049*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,9375/7072,2303*u,-3536*(u - 1)*(u + 1),12503296*u**4 - 19702783*u**2 + 12503296,12503296*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,9375/7072,3536*u**2 + 9375*u - 3536,7072*u,12503296*u**4 + 66300000*u**3 + 112897217*u**2 - 66300000*u + 12503296,50013184*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,9375/7072,3536*u**2 + 9375*u - 3536,2303*u,2*(6251648*u**4 + 33150000*u**3 + 34093921*u**2 - 33150000*u + 6251648),5303809*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,65/49,32*u,-49*(u - 1)*(u + 1),2401*u**4 - 3778*u**2 + 2401,2401*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,65/49,49*u**2 + 130*u - 49,98*u,2401*u**4 + 12740*u**3 + 21702*u**2 - 12740*u + 2401,9604*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,65/49,49*u**2 + 130*u - 49,32*u,2401*u**4 + 12740*u**3 + 13122*u**2 - 12740*u + 2401,1024*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,39/11,56*u,-11*(u - 1)*(u + 1),121*u**4 + 2894*u**2 + 121,121*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,39/11,11*u**2 + 78*u - 11,22*u,121*u**4 + 1716*u**3 + 6326*u**2 - 1716*u + 121,484*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,39/11,11*u**2 + 78*u - 11,56*u,121*u**4 + 1716*u**3 + 8978*u**2 - 1716*u + 121,3136*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,65/16,49*u,-8*(u - 1)*(u + 1),64*u**4 + 2273*u**2 + 64,64*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,65/16,8*u**2 + 65*u - 8,16*u,64*u**4 + 1040*u**3 + 4353*u**2 - 1040*u + 64,256*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,65/16,8*u**2 + 65*u - 8,49*u,2*(32*u**4 + 520*u**3 + 3249*u**2 - 520*u + 32),2401*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,39/28,11*u,-14*(u - 1)*(u + 1),196*u**4 - 271*u**2 + 196,196*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,39/28,14*u**2 + 39*u - 14,28*u,196*u**4 + 1092*u**3 + 1913*u**2 - 1092*u + 196,784*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,39/28,14*u**2 + 39*u - 14,11*u,2*(98*u**4 + 546*u**3 + 625*u**2 - 546*u + 98),121*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,12675/11891,1568*u,-11891*(u - 1)*(u + 1),141395881*u**4 - 280333138*u**2 + 141395881,141395881*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,12675/11891,11891*u**2 + 25350*u - 11891,23782*u,141395881*u**4 + 602873700*u**3 + 925414262*u**2 - 602873700*u + 141395881,565583524*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,12675/11891,11891*u**2 + 25350*u - 11891,1568*u,141395881*u**4 + 602873700*u**3 + 362289362*u**2 - 602873700*u + 141395881,2458624*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,4225/1029,6392*u,-1029*(u - 1)*(u + 1),1058841*u**4 + 38739982*u**2 + 1058841,1058841*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,4225/1029,1029*u**2 + 8450*u - 1029,2058*u,1058841*u**4 + 17390100*u**3 + 73520182*u**2 - 17390100*u + 1058841,4235364*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,4225/1029,1029*u**2 + 8450*u - 1029,6392*u,1058841*u**4 + 17390100*u**3 + 110142482*u**2 - 17390100*u + 1058841,40857664*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,12675/784,11891*u,-392*(u - 1)*(u + 1),153664*u**4 + 141088553*u**2 + 153664,153664*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,12675/784,392*u**2 + 12675*u - 392,784*u,153664*u**4 + 9937200*u**3 + 160962953*u**2 - 9937200*u + 153664,614656*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,12675/784,392*u**2 + 12675*u - 392,11891*u,2*(76832*u**4 + 4968600*u**3 + 150872089*u**2 - 4968600*u + 76832),141395881*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+B_fiber,4225/3196,1029*u,-1598*(u - 1)*(u + 1),2553604*u**4 - 4048367*u**2 + 2553604,2553604*(u - 1)**2*(u + 1)**2,,Sage unavailable; rank/generator search skipped.,skipped
+C_fiber,4225/3196,1598*u**2 + 4225*u - 1598,3196*u,2553604*u**4 + 13503100*u**3 + 22957833*u**2 - 13503100*u + 2553604,10214416*u**2,,Sage unavailable; rank/generator search skipped.,skipped
+D_fiber,4225/3196,1598*u**2 + 4225*u - 1598,1029*u,2*(1276802*u**4 + 6751550*u**3 + 6901129*u**2 - 6751550*u + 1276802),1058841*u**2,,Sage unavailable; rank/generator search skipped.,skipped

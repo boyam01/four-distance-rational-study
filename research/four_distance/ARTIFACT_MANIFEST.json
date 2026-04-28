@@ -1,0 +1,114 @@
+{
+  "artifact": "unit-square-four-distance-exact-search",
+  "status": "finite computational research artifact",
+  "claim_policy": "No report in this artifact is a proof of non-existence. A true solution, if found, must be emitted with an exact certificate.",
+  "runtime": {
+    "windows_python": "3.10.10",
+    "wsl_python": "3.12.3",
+    "sage_environment_python": "3.11.15",
+    "sage": "SageMath 10.7",
+    "sage_environment": "WSL Miniforge conda environment named sage",
+    "wsl_status": "Ubuntu on WSL2; Sage available through the Miniforge conda environment named sage"
+  },
+  "test_checkpoint": {
+    "command": "pytest research/four_distance/tests -q",
+    "recorded_result": "37 passed",
+    "recorded_duration": "10.76s",
+    "note": "All tests should pass; exact count may change as new tests are added."
+  },
+  "exact_arithmetic_guarantees": [
+    "Python int plus math.isqrt for exact squarehood",
+    "fractions.Fraction for rational arithmetic",
+    "no float comparisons for squarehood, rationality, defect, or 3-adic valuation",
+    "modular residue sieve is rejection-only and does not certify squarehood",
+    "bounded small-defect checks are used before full factorization on large candidates"
+  ],
+  "scripts": [
+    "research/four_distance/k22_search.py",
+    "research/four_distance/slope_tools.py",
+    "research/four_distance/analyze_seed.py",
+    "research/four_distance/reverse_closure_search.py",
+    "research/four_distance/reverse_nearmiss.py",
+    "research/four_distance/fiber_secant_search.py",
+    "research/four_distance/sage_fiber_rank.sage",
+    "research/four_distance/sage_fiber_bridge.py",
+    "research/four_distance/fiber_intersection_search.py",
+    "research/four_distance/modular_sieve_verifier.py",
+    "research/four_distance/delta_scan_lite.py",
+    "research/four_distance/plot_release_summary.py",
+    "research/four_distance/elliptic_prep.py",
+    "research/four_distance/local_730_search.py",
+    "research/four_distance/plot_seed.py"
+  ],
+  "reports": [
+    "research/four_distance/reports/README_REPORT.md",
+    "research/four_distance/reports/final_checkpoint_summary.md",
+    "research/four_distance/reports/delta_289_260_case_study.md",
+    "research/four_distance/reports/sage_fiber_rank_report.md",
+    "research/four_distance/reports/scaled_sage_fiber_report.md",
+    "research/four_distance/reports/fiber_intersections_delta_289_260.md",
+    "research/four_distance/reports/delta_scan_lite_report.md",
+    "research/four_distance/reports/defect_summary_100000.md",
+    "research/four_distance/reports/defect_summary_1000000.md"
+  ],
+  "csv_outputs": [
+    "research/four_distance/data/k22_seeds_N100000.csv",
+    "research/four_distance/data/k22_seeds_N1000000.csv",
+    "research/four_distance/data/defect_summary_100000.csv",
+    "research/four_distance/data/defect_summary_1000000.csv",
+    "research/four_distance/data/fiber_secant_candidates.csv",
+    "research/four_distance/data/fiber_secant_curves.csv",
+    "research/four_distance/data/sage_fiber_curves.csv",
+    "research/four_distance/data/sage_fiber_points.csv",
+    "research/four_distance/data/sage_fiber_verified_candidates.csv",
+    "research/four_distance/data/fiber_intersections_delta_289_260.csv",
+    "research/four_distance/data/delta_scan_lite_summary.csv",
+    "research/four_distance/data/delta_scan_lite_curves.csv",
+    "research/four_distance/data/delta_scan_lite_points.csv",
+    "research/four_distance/data/delta_scan_lite_verified_candidates.csv"
+  ],
+  "plots": [
+    "research/four_distance/plots/defect_hist.png",
+    "research/four_distance/plots/intersection.png",
+    "research/four_distance/plots/delta_scan.png"
+  ],
+  "tests": [
+    "research/four_distance/tests/test_arithmetic.py",
+    "research/four_distance/tests/test_known_seeds.py",
+    "research/four_distance/tests/test_reverse_closure.py",
+    "research/four_distance/tests/test_reverse_nearmiss.py",
+    "research/four_distance/tests/test_fiber_secant.py",
+    "research/four_distance/tests/test_sage_fiber_bridge.py",
+    "research/four_distance/tests/test_fiber_intersection.py",
+    "research/four_distance/tests/test_modular_sieve.py",
+    "research/four_distance/tests/test_delta_scan_lite.py",
+    "research/four_distance/tests/test_artifact_manifest.py"
+  ],
+  "reproducibility_commands": [
+    "pytest research/four_distance/tests -q",
+    "python research/four_distance/fiber_intersection_search.py --delta 289/260",
+    "sage research/four_distance/sage_fiber_rank.sage --delta 289/260 --all --max-multiple 100 --combo-bound 20 --strategic-only --sieve-primes 2000",
+    "python research/four_distance/sage_fiber_bridge.py --from-sage-csv research/four_distance/data/sage_fiber_points.csv --strategic-only --sieve-primes 2000",
+    "python research/four_distance/delta_scan_lite.py --max-deltas 10 --max-multiple 50 --combo-bound 10 --sieve-primes 1000"
+  ],
+  "current_results": {
+    "delta_289_260": {
+      "UB_size": 200,
+      "UC_size": 1680,
+      "UD_size": 901,
+      "UB_intersect_UC": ["3/5"],
+      "UB_intersect_UD": [],
+      "UC_intersect_UD": ["15/26"],
+      "triple_intersection": [],
+      "true_solution_count": 0,
+      "best_live_in_unit_defect": 730,
+      "improved_over_730": false
+    },
+    "delta_scan_lite": {
+      "deltas_tested": 10,
+      "true_solution_count": 0,
+      "triple_intersection_deltas": [],
+      "improvement_over_seed_defect": false
+    }
+  }
+}

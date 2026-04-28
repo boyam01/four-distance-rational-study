@@ -1,0 +1,11 @@
+delta,fibers_with_basepoints,B_rank,B_rank_bounds,C_rank,C_rank_bounds,D_rank,D_rank_bounds,UB_size,UC_size,UD_size,UB_UC_size,UB_UD_size,UC_UD_size,triple_size,true_solution_count,best_live_in_unit_defect,improved_over_seed_defect,symmetry_chain_detected,notes
+13/6,B+C+D,1,"(1, 1)",2,"(2, 2)",2,"(2, 2)",106,446,439,2,1,2,0,0,,False,True,ok
+289/260,B+C+D,1,"(1, 3)",2,"(2, 2)",2,"(2, 4)",106,442,252,2,0,2,0,0,730,False,True,ok
+867/416,B+C+D,1,"(1, 1)",1,"(1, 3)",3,"(3, 3)",105,102,439,2,0,2,0,0,730,False,True,ok
+289/29,B+D,1,"(1, 3)",,unavailable:'HyperellipticJacobian_generic_with_category' object has no attribute 'rank_bounds',2,"(2, 4)",106,0,439,0,2,0,0,0,730,False,False,ok
+332/255,B+C+D,1,"(1, 1)",1,"(1, 3)",2,"(2, 2)",105,102,252,2,0,2,0,0,5713,False,True,ok
+249/130,B+C+D,2,"(2, 2)",2,"(2, 2)",2,"(2, 2)",448,442,251,2,0,2,0,0,5713,False,True,ok
+249/119,B+D,2,"(2, 2)",,unavailable:'HyperellipticJacobian_generic_with_category' object has no attribute 'rank_bounds',2,"(2, 2)",451,0,439,0,2,0,0,0,5713,False,False,ok
+3125/493,B+D,3,"(3, 3)",,unavailable:'HyperellipticJacobian_generic_with_category' object has no attribute 'rank_bounds',3,"(3, 3)",447,0,442,0,2,0,0,0,11986,False,False,ok
+9375/2303,B+D,1,"(1, 3)",,unavailable:'HyperellipticJacobian_generic_with_category' object has no attribute 'rank_bounds',4,"(4, 4)",101,0,241,0,2,0,0,0,11986,False,False,ok
+3125/2632,B+C+D,3,"(3, 3)",1,"(1, 3)",3,"(3, 3)",446,101,442,0,0,2,0,0,11986,False,False,ok
